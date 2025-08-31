@@ -1,0 +1,68 @@
+# =========================
+# Node.js / Express backend
+# =========================
+node_modules/
+dist/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# React frontend
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# =========================
+# OS / IDE specific
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Optional: Database dumps
+# =========================
+*.sql
+*.sqlite
+*.db
+*.rdb
+*.bson
+dump/
+
+# =========================
+# Misc
+# =========================
+*.tgz
+*.gz
