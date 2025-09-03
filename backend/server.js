@@ -14,9 +14,11 @@ app.use(cookieParser());
 
 // Import Routes
 const authRoutes = require("./routes/authRoutes");
+const projectRoutes = require("./routes/projectRoutes");
 
 // Routes
 app.use("/api/auth", authRoutes); // 👈 Authentication routes (Register, Login, Forgot Password)
+app.use("/api/projects", projectRoutes); // 👈 Project routes (CRUD, Collaborators)
 
 // Test route
 app.get("/", (req, res) => {

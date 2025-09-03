@@ -45,6 +45,8 @@ const Dashboard = () => {
             <h3>Active Projects</h3>
             <p className="metric">5</p>
             <p className="description">Currently in progress</p>
+            <button onClick={() => navigate('/projects')} className="view-all-btn">View All</button>
+            <button onClick={() => navigate('/projects/create')} className="create-btn">Create New</button>
           </div>
 
           <div className="dashboard-card">
